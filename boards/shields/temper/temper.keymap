@@ -41,7 +41,7 @@
             key-positions = <22 23>;
             bindings = <&kp CAPS>;
         };
-
+    };
     macros {
         alt_f: alt_f { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RALT>, <&macro_tap &kp F>, <&macro_release &kp RALT>; };
         alt_g: alt_g { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RALT>, <&macro_tap &kp G>, <&macro_release &kp RALT>; };
