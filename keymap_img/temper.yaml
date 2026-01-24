@@ -80,32 +80,32 @@ layers:
     - {t: ▽, type: trans}
     - ↑
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - '*'
+    - (
+    - /
+    - '&under'
+    - {t: '=', s: +}
+    - '&star'
   - - {t: ▽, type: trans}
     - ←
     - ↓
     - →
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - '&alt_f'
+    - '&alt_g'
+    - '&apos'
+    - {t: '-', s: _}
+    - '&qmark'
+    - '&excla'
   - - HOME
     - END
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - '&alt_v'
+    - '&alt_b'
+    - '&alt_n'
+    - '&equal'
+    - '&more'
+    - '&less'
+    - '&tilde'
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
