@@ -19,6 +19,151 @@
 #define ______ &trans
 
 / {
+    macros {
+        alt_f: alt_f {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp F>
+                , <&macro_release &kp RALT>
+                ;
+        };
+        alt_g: alt_g {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp G>
+                , <&macro_release &kp RALT>
+                ;
+        };
+        alt_q: alt_q {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp Q>
+                , <&macro_release &kp RALT>
+                ;
+        };
+        alt_w: alt_w {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp W>
+                , <&macro_release &kp RALT>
+                ;
+        };
+        alt_v: alt_v {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp V>
+                , <&macro_release &kp RALT>
+                ;
+        };
+        alt_b: alt_b {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp B>
+                , <&macro_release &kp RALT>
+                ;
+        };
+        alt_n: alt_n {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp N>
+                , <&macro_release &kp RALT>
+                ;
+        };
+        under: under {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp FSLH>
+                , <&macro_release &kp LSHIFT>
+                ;
+        };
+        star: star {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp EQUAL>
+                , <&macro_release &kp LSHIFT>
+                ;
+        };
+        tilde: tilde {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp N1>
+                , <&macro_release &kp RALT>
+                ;
+        };
+        apos: apos {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp N2>
+                , <&macro_release &kp LSHIFT>
+                ;
+        };
+        qmark: qmark {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp MINUS>
+                , <&macro_release &kp LSHIFT>
+                ;
+        };
+        excla: excla {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp N1>
+                , <&macro_release &kp LSHIFT>
+                ;
+        };
+        equal: equal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp N0>
+                , <&macro_release &kp LSHIFT>
+                ;
+        };
+        more: more {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp COMMA>
+                , <&macro_release &kp RALT>
+                ;
+        };
+        less: less {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp DOT>
+                , <&macro_release &kp RALT>
+                ;
+        };
     behaviors {
         bspc_del: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
@@ -120,7 +265,7 @@
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         ______       &kp LEFT     &kp DOWN     &kp RIGHT        ______             ______        ______        ______        ______        ______ 
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        ______        ______        ______        ______        ______             ______        ______        ______        ______        ______ 
+        &kp HOME     &kp END        ______        ______        ______             ______        ______        ______        ______        ______ 
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                     ______        ______        ______            ______        ______        ______
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
@@ -130,11 +275,11 @@
                 fun_layer {
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-      ______        ______        ______        ______        ______            ______        ______        ______        ______        ______ 
+      &kp F1        &kp F2        &kp F3        &kp F4        ______            ______        ______        ______        ______        ______ 
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-     ______        ______        ______        ______        ______            ______        ______        ______        ______        ______ 
+      &kp F5        &kp F6        &kp F7        &kp F8        ______            ______        ______        ______        ______        ______ 
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      ______        ______        ______        ______        ______            ______        ______        ______        ______        ______ 
+      &kp F9        &kp F10        &kp F11        &kp F12        ______            ______        ______        ______        ______        ______ 
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                     ______        ______        ______            ______        ______        ______
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
