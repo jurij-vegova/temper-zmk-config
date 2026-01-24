@@ -76,8 +76,8 @@ layers:
     - {type: held}
     - {t: ▽, type: trans}
   nav:
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+  - - '&alt_q'
+    - '&alt_w'
     - ↑
     - {t: ▽, type: trans}
     - '*'
@@ -105,13 +105,8 @@ layers:
     - '&equal'
     - '&more'
     - '&less'
-    - {t: '[', s: '{'}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - '&shift_7'
+  - [LWIN, '', BSPC, SPACE, '', '']
   fun:
   - - F1
     - F2
