@@ -16,7 +16,7 @@
 #define FUN 4
 #define CMD 5
 
-# define ______ &trans
+#define ______ &trans
 
 / {
     conditional_layers {
