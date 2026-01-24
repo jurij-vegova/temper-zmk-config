@@ -40,7 +40,7 @@
         combo_del {
             timeout-ms = <40>;
             key-positions = <22 23>;
-            bindings = <&kp CAPS>;
+            bindings = <&kp DEL>;
         };
     };
     macros {
