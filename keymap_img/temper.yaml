@@ -1,33 +1,33 @@
 layout: {zmk_keyboard: temper}
 layers:
   default:
-  - - Q
-    - W
+  - [Q, W, E, R, T, Y, U, I, O, P]
+  - - A
+    - S
+    - D
     - F
-    - P
-    - B
+    - G
+    - H
     - J
+    - K
     - L
-    - U
-    - Y
-    - {t: '''', s: '"'}
-  - [A, R, S, T, G, M, N, E, I, O]
+    - {t: ;, s: ':'}
   - - Z
     - X
     - C
-    - D
     - V
-    - K
-    - H
-    - {t: ',', s: ;}
-    - {t: ., s: ':'}
-    - {t: '?', s: '!'}
-  - - cmd
-    - num
-    - {t: ⇧, s: ⇪}
+    - B
+    - N
+    - M
+    - {t: ',', s: <}
+    - {t: ., s: '>'}
+    - \
+  - - LWIN
+    - {t: ENTER, h: '3'}
+    - BSPC
     - SPACE
-    - nav
-    - {t: default, h: toggle}
+    - num
+    - fun
   game:
   - - ↹
     - Q
@@ -66,32 +66,14 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   num:
-  - - '~'
-    - '@'
-    - '{'
-    - '}'
-    - '%'
-    - '*'
-    - '7'
-    - '8'
-    - '9'
-    - {t: '-', s: _}
-  - [^, '#', (, ), $, _, '4', '5', '6', +]
-  - - {t: '&', s: '|'}
-    - <
-    - {t: '[', s: '{'}
-    - {t: ']', s: '}'}
-    - '>'
-    - {t: /, s: \}
-    - '1'
-    - '2'
-    - '3'
-    - {t: '=', s: +}
+  - [none, '1', '2', '3', none, none, none, none, none, none]
+  - ['0', '4', '5', '6', none, none, none, none, none, none]
+  - [none, '7', '8', '9', none, none, none, none, none, none]
   - - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - '0'
-    - {t: ▽, type: trans}
+    - {type: held}
     - {t: ▽, type: trans}
   nav:
   - - {t: ▽, type: trans}
@@ -128,7 +110,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   fun:
   - - {t: game, h: toggle}
@@ -162,11 +144,11 @@ layers:
     - F3
     - F10
   - - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
-    - {t: ▽, type: trans}
   cmd:
   - - ⌘Q
     - ⌘W
@@ -198,7 +180,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {type: held}
+  - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
