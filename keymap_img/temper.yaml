@@ -95,7 +95,7 @@ layers:
     - '&shift_5'
     - {t: '=', s: +}
     - '&star'
-  - - {t: ▽, type: trans}
+  - - LSHIFT
     - ←
     - ↓
     - →
@@ -105,16 +105,7 @@ layers:
     - {t: '-', s: _}
     - '&qmark'
     - '&excla'
-  - - HOME
-    - END
-    - {t: ▽, type: trans}
-    - '&alt_v'
-    - '&alt_b'
-    - '&alt_n'
-    - '&equal'
-    - '&more'
-    - '&less'
-    - '&shift_7'
+  - ['', HOME, END, '&alt_v', '&alt_b', '&alt_n', '&equal', '&more', '&less', '&shift_7']
   - [LWIN, '', BSPC, SPACE, '', '']
   fun:
   - - F1
