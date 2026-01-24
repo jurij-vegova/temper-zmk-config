@@ -21,7 +21,7 @@ layers:
     - M
     - {t: ',', s: <}
     - {t: ., s: '>'}
-    - \
+    - /
   - - LWIN
     - {t: ENTER, h: '3'}
     - BSPC
@@ -66,24 +66,33 @@ layers:
     - {t: ▽, type: trans}
     - {t: default, h: toggle}
   num:
-  - [none, '1', '2', '3', none, none, none, none, none, none]
-  - ['0', '4', '5', '6', none, none, none, none, none, none]
-  - [none, '7', '8', '9', none, none, none, none, none, none]
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - '0'
+  - ['&shift_4', '1', '2', '3', '&equal', none, none, none, none, none]
+  - ['&eur', '4', '5', '6', /, none, none, none, none, none]
+  - - '&shift_6'
+    - '7'
+    - '8'
+    - '9'
+    - {t: '=', s: +}
+    - none
+    - none
+    - none
+    - none
+    - none
+  - - '0'
+    - ENTER
+    - BSPC
+    - SPACE
     - {type: held}
-    - {t: ▽, type: trans}
+    - ''
   nav:
   - - '&alt_q'
     - '&alt_w'
     - ↑
-    - {t: ▽, type: trans}
+    - '&shift_3'
     - '*'
     - (
-    - /
-    - '&under'
+    - '&shift_7'
+    - '&shift_5'
     - {t: '=', s: +}
     - '&star'
   - - {t: ▽, type: trans}
