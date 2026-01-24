@@ -56,46 +56,46 @@
 
         default_layer {
             bindings = <
-                &kp Q    &kp W    &kp E    &kp R    &kp T        &kp Y    &kp U    &kp I     &kp O    &kp P
-                &kp A    &kp S    &kp D    &kp F    &kp G        &kp H    &kp J    &kp K     &kp L    &kp SEMI
-                &kp Z    &kp X    &kp C    &kp V    &kp B        &kp N    &kp M    &kp COMMA &kp DOT  &kp FSLH
-                                  &kp LWIN &mt NAV ENTER &kp BSPC &kp SPACE &mo NUM &mo FUN
+                &kp Q    &kp W    &kp E    &kp R    &kp T                &kp Y    &kp U    &kp I     &kp O    &kp P
+                &kp A    &kp S    &kp D    &kp F    &kp G                &kp H    &kp J    &kp K     &kp L    &kp SEMI
+                &kp Z    &kp X    &kp C    &kp V    &kp B                &kp N    &kp M    &kp COMMA &kp DOT  &kp FSLH
+                             &kp LWIN &mt NAV ENTER &kp BSPC         &kp SPACE &mo NUM &mo FUN
             >;
         };
 
         game_layer {
             bindings = <
-                &kp Q    &kp W    &kp E    &kp R    &kp T        ______   ______   ______   ______   ______
-                &kp A    &kp S    &kp D    &kp F    &kp G        ______   ______   ______   ______   ______
-                &kp Z    &kp X    &kp C    &kp V    &kp B        ______   ______   ______   ______   ______
-                                  &kp LWIN &kp LALT &kp SPACE    ______   ______   &to DEFAULT
+                &kp Q    &kp W    &kp E    &kp R    &kp T                ______   ______   ______   ______   ______
+                &kp A    &kp S    &kp D    &kp F    &kp G                ______   ______   ______   ______   ______
+                &kp Z    &kp X    &kp C    &kp V    &kp B                ______   ______   ______   ______   ______
+                                  &kp LWIN &kp LALT &kp SPACE            ______   ______   &to DEFAULT
             >;
         };
 
         num_layer {
             bindings = <
-                &shift_4 &kp N1   &kp N2   &kp N3   &equal       &kp C_VOL_UP &kp C_PREV &kp C_PP &kp C_NEXT xxxxxx
-                &eur     &kp N4   &kp N5   &kp N6   &kp FSLH     &kp C_VOL_DN xxxxxx     xxxxxx   xxxxxx     xxxxxx
-                &shift_6 &kp N7   &kp N8   &kp N9   &kp EQUAL    xxxxxx       xxxxxx     xxxxxx   xxxxxx     xxxxxx
-                                  &kp N0   &kp ENTER &kp BSPC    &kp SPACE    xxxxxx     xxxxxx
+                &shift_4 &kp N1   &kp N2   &kp N3   &equal               &kp C_VOL_UP &kp C_PREV &kp C_PP &kp C_NEXT xxxxxx
+                &eur     &kp N4   &kp N5   &kp N6   &kp FSLH             &kp C_VOL_DN xxxxxx     xxxxxx   xxxxxx     xxxxxx
+                &shift_6 &kp N7   &kp N8   &kp N9   &kp EQUAL            xxxxxx       xxxxxx     xxxxxx   xxxxxx     xxxxxx
+                                  &kp N0   &kp ENTER &kp BSPC            &kp SPACE    xxxxxx     xxxxxx
             >;
         };
 
         nav_layer {
             bindings = <
-                &alt_q     &alt_w   &kp UP   &shift_3 &kp STAR     &kp LPAR   &shift_7 &shift_5  &kp EQUAL &star
-                &kp LSHIFT &kp LEFT &kp DOWN &kp RIGHT &alt_f      &alt_g     &apos    &kp MINUS &qmark    &excla
-                xxxxxx     &kp HOME &kp END  &alt_v   &alt_b       &alt_n     &equal   &more     &less     &shift_7
-                                    &kp LWIN xxxxxx   &kp BSPC     &kp SPACE  xxxxxx   xxxxxx
+                &alt_q     &alt_w   &kp UP   &shift_3 &kp STAR             &kp LPAR   &shift_7 &shift_5  &kp EQUAL &star
+                &kp LSHIFT &kp LEFT &kp DOWN &kp RIGHT &alt_f              &alt_g     &apos    &kp MINUS &qmark    &excla
+                xxxxxx     &kp HOME &kp END  &alt_v   &alt_b               &alt_n     &equal   &more     &less     &shift_7
+                                    &kp LWIN xxxxxx   &kp BSPC             &kp SPACE  xxxxxx   xxxxxx
             >;
         };
 
         fun_layer {
             bindings = <
-                &kp F1   &kp F2   &kp F3   &kp F4   xxxxxx       &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR
-                &kp F5   &kp F6   &kp F7   &kp F8   xxxxxx       xxxxxx       xxxxxx       xxxxxx       xxxxxx       xxxxxx
-                &kp F9   &kp F10  &kp F11  &kp F12  xxxxxx       xxxxxx       xxxxxx       xxxxxx       xxxxxx       &to GAME
-                                  &kp LWIN &kp LCTRL &kp LALT    xxxxxx       xxxxxx       xxxxxx
+                &kp F1   &kp F2   &kp F3   &kp F4   xxxxxx               &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR
+                &kp F5   &kp F6   &kp F7   &kp F8   xxxxxx               xxxxxx       xxxxxx       xxxxxx       xxxxxx       xxxxxx
+                &kp F9   &kp F10  &kp F11  &kp F12  xxxxxx               xxxxxx       xxxxxx       xxxxxx       xxxxxx       &to GAME
+                                  &kp LWIN &kp LCTRL &kp LALT            xxxxxx       xxxxxx       xxxxxx
             >;
         };
     };
