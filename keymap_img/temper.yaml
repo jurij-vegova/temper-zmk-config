@@ -66,18 +66,18 @@ layers:
     - {t: ▽, type: trans}
     - {t: default, h: toggle}
   num:
-  - ['&shift_4', '1', '2', '3', '&equal', none, none, none, none, none]
-  - ['&eur', '4', '5', '6', /, none, none, none, none, none]
+  - ['&shift_4', '1', '2', '3', '&equal', VOL UP, PREV, PP, NEXT, '']
+  - ['&eur', '4', '5', '6', /, VOL DN, '', '', '', '']
   - - '&shift_6'
     - '7'
     - '8'
     - '9'
     - {t: '=', s: +}
-    - none
-    - none
-    - none
-    - none
-    - none
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
   - - '0'
     - ENTER
     - BSPC
@@ -135,3 +135,12 @@ layers:
     - ''
     - ''
     - {type: held}
+combos:
+- p: [0, 1]
+  k: ESC
+- p: [10, 11]
+  k: ↹
+- p: [20, 21]
+  k: CAPS
+- p: [22, 23]
+  k: DEL
