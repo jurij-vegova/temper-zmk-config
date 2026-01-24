@@ -36,6 +36,17 @@
         equal: equal { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp N0>, <&macro_release &kp LSHIFT>; };
         more: more { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RALT>, <&macro_tap &kp COMMA>, <&macro_release &kp RALT>; };
         less: less { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RALT>, <&macro_tap &kp DOT>, <&macro_release &kp RALT>; };
+        eur: eur { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RALT>, <&macro_tap &kp E>, <&macro_release &kp RALT>; };
+        shift_1: shift_1 { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp N1>, <&macro_release &kp LSHIFT>; }; 
+        shift_2: shift_2 { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp N2>, <&macro_release &kp LSHIFT>; }; 
+        shift_3: shift_3 { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp N3>, <&macro_release &kp LSHIFT>; }; 
+        shift_4: shift_4 { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp N4>, <&macro_release &kp LSHIFT>; }; 
+        shift_5: shift_5 { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp N5>, <&macro_release &kp LSHIFT>; }; 
+        shift_6: shift_6 { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp N6>, <&macro_release &kp LSHIFT>; }; 
+        shift_7: shift_7 { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp N7>, <&macro_release &kp LSHIFT>; }; 
+        shift_8: shift_8 { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp N8>, <&macro_release &kp LSHIFT>; }; 
+        shift_9: shift_9 { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp N9>, <&macro_release &kp LSHIFT>; }; 
+        shift_0: shift_0 { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp N0>, <&macro_release &kp LSHIFT>; }; 
     };
     behaviors {
         bspc_del: backspace_delete {
@@ -122,7 +133,7 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
       &kp none       &kp N1       &kp N2        &kp N3       &kp none          &kp none       &kp none      &kp none    &kp none    &kp none
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp N0       &kp N4         &kp N5        &kp N6      &kp none         &kp none       &kp none        &kp none     &kp none    &kp none
+      &kp N0       &kp N4         &kp N5        &kp N6      &kp none           &kp none       &kp none        &kp none     &kp none    &kp none
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
       &kp none     &kp N7         &kp N8         &kp N9       &kp none          &kp none      &kp none        &kp none      &kp none    &kp none
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
@@ -134,13 +145,13 @@
                 nav_layer {
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        ______        ______        &kp UP        ______       &kp STAR          &kp LPAR      &kp FSLH      &under       &kp EQUAL       &star 
+        &alt_q        &alt_w        &kp UP        ______       &kp STAR          &kp LPAR      &kp FSLH      &under       &kp EQUAL       &star 
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         ______       &kp LEFT     &kp DOWN     &kp RIGHT        &alt_f             &alt_g        &apos      &kp MINUS      &qmark        &excla 
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &kp HOME     &kp END        ______        &alt_v       &alt_b             &alt_n        &equal        &more         &less        &kp LBKT 
+        &kp HOME     &kp END        ______        &alt_v       &alt_b             &alt_n        &equal        &more         &less        &shift_7 
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                    ______        ______        ______            ______        ______        ______
+                                    &kp LWIN     &none       &kp BSPC           &kp SPACE      &none        &none
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
                         >;
                 };
