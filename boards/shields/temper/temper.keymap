@@ -86,11 +86,11 @@
         num_layer {
             bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &shift_4     &kp N1         &kp N2        &kp N3       &equal             xxxxxx       xxxxxx         xxxxxx        xxxxxx        xxxxxx
+        &shift_4     &kp N1         &kp N2        &kp N3       &equal             &shift_6     xxxxxx         xxxxxx        xxxxxx        &kp LBKT
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &eur         &kp N4         &kp N5        &kp N6      &kp FSLH            xxxxxx       xxxxxx         xxxxxx        xxxxxx        xxxxxx
+        &eur         &kp N4         &kp N5        &kp N6      &kp FSLH            xxxxxx       xxxxxx         xxxxxx        xxxxxx        &kp BSLH
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &shift_6     &kp N7         &kp N8        &kp N9      &kp EQUAL           xxxxxx       xxxxxx         xxxxxx        xxxxxx        xxxxxx
+        xxxxxx     &kp N7         &kp N8        &kp N9        &kp EQUAL             xxxxxx       xxxxxx         xxxxxx        xxxxxx        xxxxxx
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                   &kp N0         &kp ENTER    &kp BSPC           &kp SPACE     xxxxxx        xxxxxx
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
