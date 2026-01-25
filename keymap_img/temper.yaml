@@ -115,7 +115,12 @@ layers:
     - '&qmark'
     - '&excla'
   - ['', HOME, END, '&alt_v', '&alt_b', '&alt_n', '&equal', '&more', '&less', '&shift_7']
-  - [LWIN, '', BSPC, SPACE, '', '']
+  - - LWIN
+    - ''
+    - BSPC
+    - {t: SPACE, h: ⎇}
+    - ''
+    - ''
   fun:
   - - F1
     - F2
