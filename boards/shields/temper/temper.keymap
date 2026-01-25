@@ -22,6 +22,14 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
+    hm_fun: homerow_mod_fun {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
+            flavor = "balanced";
+            bindings = <&kp>, <&apos>; // Hardcodes the tap to your macro
+        };
     };
     combos {
         compatible = "zmk,combos";
@@ -112,7 +120,7 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &alt_q        &alt_w         &kp UP      &shift_3     &kp STAR            &kp LPAR      &shift_7     &shift_5      &kp EQUAL       &star
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-       &kp LSHIFT    &kp LEFT      &kp DOWN      &kp RIGHT     &alt_f             &alt_g       &apos         &kp MINUS     &qmark        &excla
+       &kp LSHIFT    &kp LEFT      &kp DOWN      &kp RIGHT     &alt_f             &alt_g    &hm_fun RSHIFT 0         &kp MINUS     &qmark        &excla
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         xxxxxx       &kp HOME      &kp END        &alt_v       &alt_b             &alt_n      &equal           &more        &less        &shift_7
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
