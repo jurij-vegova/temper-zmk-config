@@ -66,8 +66,8 @@ layers:
     - {t: ▽, type: trans}
     - {t: default, h: toggle}
   num:
-  - ['&shift_4', '1', '2', '3', '&equal', VOL UP, PREV, PP, NEXT, '']
-  - ['&eur', '4', '5', '6', /, VOL DN, '', '', '', '']
+  - ['&shift_4', '1', '2', '3', '&equal', '', '', '', '', '']
+  - ['&eur', '4', '5', '6', /, '', '', '', '', '']
   - - '&shift_6'
     - '7'
     - '8'
