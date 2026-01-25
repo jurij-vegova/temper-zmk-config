@@ -112,23 +112,23 @@ layers:
     - F2
     - F3
     - F4
+    - {t: game, h: toggle}
+    - VOL UP
+    - PREV
+    - PP
+    - NEXT
+    - ''
+  - [F5, F6, F7, F8, '', VOL DN, '', '', '', '']
+  - - F9
+    - F10
+    - F11
+    - F12
     - ''
     - {t: BT, h: '0'}
     - {t: BT, h: '1'}
     - {t: BT, h: '2'}
     - {t: BT, h: '3'}
     - BT CLR
-  - [F5, F6, F7, F8, '', '', '', '', '', '']
-  - - F9
-    - F10
-    - F11
-    - F12
-    - ''
-    - ''
-    - ''
-    - ''
-    - ''
-    - {t: game, h: toggle}
   - - LWIN
     - ⌃
     - ⎇
