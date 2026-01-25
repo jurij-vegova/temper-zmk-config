@@ -110,7 +110,7 @@ layers:
     - →
     - '&alt_f'
     - '&alt_g'
-    - '&apos'
+    - {t: '&apos', h: RSHIFT}
     - {t: '-', s: _}
     - '&qmark'
     - '&excla'
