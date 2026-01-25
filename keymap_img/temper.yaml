@@ -2,16 +2,16 @@ layout: {zmk_keyboard: temper}
 layers:
   default:
   - [Q, W, E, R, T, Y, U, I, O, P]
-  - - A
-    - S
-    - D
-    - F
+  - - {t: A, h: ⌘}
+    - {t: S, h: ⎇}
+    - {t: D, h: ⌃}
+    - {t: F, h: LSHIFT}
     - G
     - H
-    - J
-    - K
-    - L
-    - {t: ;, s: ':'}
+    - {t: J, h: RSHIFT}
+    - {t: K, h: ⌃}
+    - {t: L, h: ⎇}
+    - {t: ;, h: ⌘, s: ':'}
   - - Z
     - X
     - C
