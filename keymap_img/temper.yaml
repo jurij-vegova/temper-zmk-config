@@ -23,7 +23,7 @@ layers:
     - {t: ., s: '>'}
     - /
   - - LWIN
-    - {t: ENTER, h: '3'}
+    - {t: ENTER, h: nav}
     - BSPC
     - SPACE
     - num
@@ -116,7 +116,7 @@ layers:
     - '&excla'
   - ['', HOME, END, '&alt_v', '&alt_b', '&alt_n', '&equal', '&more', '&less', '&shift_7']
   - - LWIN
-    - ''
+    - {type: held}
     - BSPC
     - {t: SPACE, h: ⎇}
     - ''
