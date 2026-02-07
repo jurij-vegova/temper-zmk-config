@@ -433,7 +433,6 @@ path {
 <g transform="translate(0, 56)">
 <g transform="translate(30, 87)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;shift_4</tspan></text>
 </g>
 <g transform="translate(89, 48)" class="key keypos-1">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -471,7 +470,7 @@ path {
 </g>
 <g transform="translate(30, 143)" class="key keypos-10">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;eur</text>
+<text x="0" y="0" class="key tap">0</text>
 </g>
 <g transform="translate(89, 104)" class="key keypos-11">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -542,7 +541,7 @@ path {
 </g>
 <g transform="translate(188, 228)" class="key keypos-30">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">0</text>
+<text x="0" y="0" class="key tap">LWIN</text>
 </g>
 <g transform="translate(254, 236) rotate(15.0)" class="key keypos-31">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -674,6 +673,7 @@ path {
 </g>
 <g transform="translate(30, 199)" class="key keypos-20">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<text x="0" y="0" class="key tap">LSHIFT</text>
 </g>
 <g transform="translate(89, 160)" class="key keypos-21">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>

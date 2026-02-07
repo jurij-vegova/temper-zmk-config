@@ -66,7 +66,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: default, h: toggle}
   num:
-  - - '&shift_4'
+  - - ''
     - '1'
     - '2'
     - '3'
@@ -76,7 +76,7 @@ layers:
     - ''
     - ''
     - {t: '[', s: '{'}
-  - ['&eur', '4', '5', '6', /, '', '', '', '', \]
+  - ['0', '4', '5', '6', /, '', '', '', '', \]
   - - ''
     - '7'
     - '8'
@@ -87,7 +87,7 @@ layers:
     - ''
     - ''
     - ''
-  - - '0'
+  - - LWIN
     - ENTER
     - BSPC
     - SPACE
@@ -114,7 +114,7 @@ layers:
     - {t: '-', s: _}
     - '&qmark'
     - '&excla'
-  - ['', HOME, END, '&alt_v', '&alt_b', '&alt_n', '&equal', '&more', '&less', '']
+  - [LSHIFT, HOME, END, '&alt_v', '&alt_b', '&alt_n', '&equal', '&more', '&less', '']
   - - LWIN
     - {type: held}
     - BSPC
