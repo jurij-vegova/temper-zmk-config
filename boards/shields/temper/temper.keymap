@@ -105,13 +105,13 @@
         num_layer {
             bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &shift_4     &kp N1         &kp N2        &kp N3       &equal             &shift_6     xxxxxx         xxxxxx        xxxxxx        &kp LBKT
+        xxxxxx     &kp N1         &kp N2        &kp N3       &equal             &shift_6     xxxxxx         xxxxxx        xxxxxx        &kp LBKT
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &eur         &kp N4         &kp N5        &kp N6      &kp FSLH            xxxxxx       xxxxxx         xxxxxx        xxxxxx        &kp BSLH
+        &kp N0         &kp N4         &kp N5        &kp N6      &kp FSLH            xxxxxx       xxxxxx         xxxxxx        xxxxxx        &kp BSLH
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         xxxxxx     &kp N7         &kp N8        &kp N9        &kp EQUAL             xxxxxx       xxxxxx         xxxxxx        xxxxxx        xxxxxx
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                  &kp N0         &kp ENTER    &kp BSPC           &kp SPACE     xxxxxx        xxxxxx
+                                  &kp LWIN      &kp ENTER    &kp BSPC           &kp SPACE     xxxxxx        xxxxxx
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
             >;
         };
@@ -121,9 +121,9 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &alt_q        &alt_w         &kp UP      &shift_3     &kp STAR            &kp LPAR      &shift_7     &shift_5      &kp EQUAL       &star
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-       &kp LSHIFT    &kp LEFT      &kp DOWN      &kp RIGHT     &alt_f             &alt_g    &hm_fun RSHIFT 0         &kp MINUS     &qmark        &excla
+    &kp LSHIFT   &kp LEFT      &kp DOWN      &kp RIGHT     &alt_f             &alt_g    &hm_fun RSHIFT 0    &kp MINUS     &qmark        &excla
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        xxxxxx       &kp HOME      &kp END        &alt_v       &alt_b             &alt_n      &equal           &more        &less      xxxxxx
+    &kp LSHIFT    &kp HOME      &kp END        &alt_v       &alt_b             &alt_n      &equal           &more        &less      xxxxxx
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                   &kp LWIN       xxxxxx        &kp BSPC       &hm LALT SPACE      xxxxxx       xxxxxx
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
