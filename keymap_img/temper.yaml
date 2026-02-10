@@ -59,11 +59,11 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - LWIN
+  - - ⌃
     - ⎇
     - SPACE
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - BSPC
+    - {t: ENTER, h: num}
     - {t: default, h: toggle}
   num:
   - - ''
