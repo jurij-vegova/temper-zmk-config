@@ -30,7 +30,6 @@
             flavor = "balanced";
             bindings = <&kp>, <&apos>;
         };
-    };
     tm: thumb_mod {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
