@@ -28,7 +28,16 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             flavor = "balanced";
-            bindings = <&kp>, <&apos>; // Hardcodes the tap to your macro
+            bindings = <&kp>, <&apos>;
+        };
+    };
+    tm: thumb_mod {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
+            flavor = "balanced";
+            bindings = <&mo>, <&kp>;
         };
     };
     combos {
@@ -82,7 +91,7 @@
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &kp Z         &kp X          &kp C         &kp V        &kp B             &kp N         &kp M       &kp COMMA      &kp DOT      &kp FSLH
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                   &kp LWIN    &lt NAV ENTER   &kp BSPC         &kp SPACE     &mo NUM       &mo FUN
+                                   &kp LWIN    &tm NAV ENTER   &kp BSPC         &kp SPACE     &mo NUM       &mo FUN
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
 
             >;
