@@ -66,7 +66,7 @@ layers:
     - {t: ENTER, h: num}
     - {t: default, h: toggle}
   num:
-  - - ''
+  - - '&shift_4'
     - '1'
     - '2'
     - '3'
