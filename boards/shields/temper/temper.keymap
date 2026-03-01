@@ -8,7 +8,7 @@
 #define NUM 2
 #define NAV 3
 #define FUN 4
-#define MODE
+#define MODE 5
 
 #define ______ &trans
 #define xxxxxx &none
