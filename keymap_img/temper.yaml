@@ -2,7 +2,7 @@ layout: {zmk_keyboard: temper}
 layers:
   default:
   - [Q, W, E, R, T, Y, U, I, O, P]
-  - - A
+  - - {t: A, h: ⌘}
     - {t: S, h: ⎇}
     - {t: D, h: ⌃}
     - {t: F, h: LSHIFT}
@@ -11,7 +11,7 @@ layers:
     - {t: J, h: RSHIFT}
     - {t: K, h: ⌃}
     - {t: L, h: ⎇}
-    - {t: ;, s: ':'}
+    - {t: ;, h: ⌘, s: ':'}
   - - Z
     - X
     - C
@@ -76,7 +76,16 @@ layers:
     - ''
     - ''
     - {t: '[', s: '{'}
-  - ['0', '4', '5', '6', /, '', RSHIFT, ⌃, ⎇, \]
+  - - '0'
+    - '4'
+    - '5'
+    - {t: '6', h: LSHIFT}
+    - /
+    - ''
+    - RSHIFT
+    - ⌃
+    - ⎇
+    - {t: \, h: ⌘}
   - - {t: ., s: '>'}
     - '7'
     - '8'
@@ -129,7 +138,7 @@ layers:
     - F8
     - ''
     - VOL DN
-    - ''
+    - RSHIFT
     - ''
     - ''
     - {t: game, h: toggle}
