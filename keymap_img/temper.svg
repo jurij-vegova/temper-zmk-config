@@ -558,8 +558,9 @@ path {
 </a></g>
 <g transform="translate(599, 228)" class="key keypos-35">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">mode</text>
-</g>
+<a href="#fun">
+<text x="0" y="0" class="key tap layer-activator">fun</text>
+</a></g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="105" y="25" width="28" height="26" class="combo"/>
 <text x="119" y="38" class="combo tap">ESC</text>
@@ -891,8 +892,9 @@ path {
 </g>
 <g transform="translate(533, 235) rotate(-15.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">mode</text>
-</g>
+<a href="#num">
+<text x="0" y="0" class="key tap layer-activator">num</text>
+</a></g>
 <g transform="translate(599, 228)" class="key held keypos-35">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key held"/>
 <a href="#fun">
