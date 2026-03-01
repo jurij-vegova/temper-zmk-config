@@ -80,14 +80,6 @@ combos {
         shift_0: shift_0 { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp N0>, <&macro_release &kp LSHIFT>; };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <NUM FUN>;
-            then-layer = <MODE>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -129,7 +121,7 @@ combos {
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &kp DOT     &kp N7         &kp N8        &kp N9        &star             xxxxxx       xxxxxx        ______        ______      ______
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                  &kp LWIN      &kp ENTER    &kp BSPC          &hm LALT SPACE   &mo NUM       &mo FUN
+                                  &kp LWIN      &kp ENTER    &kp BSPC          &hm LALT SPACE   &mo NUM       &mo MODE
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
             >;
         };
@@ -157,7 +149,7 @@ combos {
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &kp F9        &kp F10       &kp F11       &kp F12       xxxxxx           xxxxxx        xxxxxx        xxxxxx        xxxxxx        xxxxxx    
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                    &kp LWIN      &kp LCTRL     &kp LALT         xxxxxx         &mo NUM       &mo FUN
+                                    &kp LWIN      &kp LCTRL     &kp LALT         xxxxxx        &mo MODE       &mo FUN
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
             >;
         };
