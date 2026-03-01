@@ -101,7 +101,7 @@ layers:
     - BSPC
     - {t: SPACE, h: ⎇}
     - {type: held}
-    - ''
+    - fun
   nav:
   - - '&alt_q'
     - '&alt_w'
@@ -147,7 +147,7 @@ layers:
     - ⌃
     - ⎇
     - ''
-    - ''
+    - num
     - {type: held}
   mode:
   - - {t: BT, h: '0'}
