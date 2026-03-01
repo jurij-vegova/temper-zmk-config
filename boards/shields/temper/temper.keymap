@@ -164,11 +164,11 @@ combos {
         mode_layer {
             bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-      &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   xxxxxx         xxxxxx        xxxxxx        xxxxxx        xxxxxx        xxxxxx    
+      &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   xxxxxx          &sys_reset        xxxxxx        xxxxxx        xxxxxx        xxxxxx    
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-       xxxxxx        xxxxxx        xxxxxx        xxxxxx        xxxxxx            xxxxxx        xxxxxx        xxxxxx        xxxxxx        xxxxxx    
+       xxxxxx        xxxxxx        xxxxxx        xxxxxx        xxxxxx           &bootloader     xxxxxx        xxxxxx        xxxxxx        xxxxxx    
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-       xxxxxx        xxxxxx        xxxxxx        xxxxxx        xxxxxx            xxxxxx        xxxxxx        xxxxxx        xxxxxx       &bt BT_CLR    
+       xxxxxx        xxxxxx        xxxxxx        xxxxxx        xxxxxx           xxxxxx      xxxxxx        xxxxxx        xxxxxx       &bt BT_CLR    
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                    xxxxxx         xxxxxx       xxxxxx             xxxxxx       xxxxxx        xxxxxx
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
