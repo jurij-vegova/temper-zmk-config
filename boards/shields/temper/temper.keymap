@@ -83,7 +83,7 @@ combos {
     conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
-            if-layers = <NAV FUN>;
+            if-layers = <NUM FUN>;
             then-layer = <MODE>;
         };
     };
