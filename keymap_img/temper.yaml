@@ -61,8 +61,8 @@ layers:
     - {t: ▽, type: trans}
   - - ⌃
     - ⎇
-    - SPACE
     - BSPC
+    - SPACE
     - {t: ENTER, h: num}
     - {t: default, h: toggle}
   num:
@@ -99,7 +99,7 @@ layers:
   - - LWIN
     - ENTER
     - BSPC
-    - SPACE
+    - {t: SPACE, h: ⎇}
     - {type: held}
     - ''
   nav:
@@ -142,19 +142,29 @@ layers:
     - ''
     - ''
     - {t: game, h: toggle}
-  - - F9
-    - F10
-    - F11
-    - F12
+  - [F9, F10, F11, F12, '', '', '', '', '', '']
+  - - LWIN
+    - ⌃
+    - ⎇
     - ''
-    - {t: BT, h: '0'}
+    - ''
+    - {type: held}
+  mode:
+  - - {t: BT, h: '0'}
     - {t: BT, h: '1'}
     - {t: BT, h: '2'}
     - {t: BT, h: '3'}
     - BT CLR
-  - - LWIN
-    - ⌃
-    - ⎇
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+  - ['', '', '', '', '', '', '', '', '', '']
+  - ['', '', '', '', '', '', '', '', '', '']
+  - - ''
+    - {type: held}
+    - ''
     - ''
     - ''
     - {type: held}
