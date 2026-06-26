@@ -144,7 +144,7 @@ layers:
   - - {t: F5, h: ⌘}
     - {t: F6, h: ⎇}
     - {t: F7, h: ⌃}
-    - '&hrsft LSHFT F8'
+    - {t: F8, h: ⇧}
     - {t: game, h: toggle}
     - VOL DN
     - RSHIFT
