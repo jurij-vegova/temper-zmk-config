@@ -70,7 +70,7 @@ layers:
     - '1'
     - '2'
     - '3'
-    - '&equal'
+    - ''
     - ''
     - '&shift_7'
     - '&shift_5'
@@ -80,7 +80,7 @@ layers:
     - '4'
     - '5'
     - {t: '6', h: LSHIFT}
-    - '&shift_7'
+    - ''
     - ''
     - RSHIFT
     - ⌃
@@ -90,9 +90,9 @@ layers:
     - '7'
     - '8'
     - '9'
-    - '&star'
     - ''
     - ''
+    - '&equal'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -123,7 +123,16 @@ layers:
     - {t: '-', s: _}
     - '&qmark'
     - '&excla'
-  - [LSHIFT, HOME, END, '&alt_v', '&alt_b', '&alt_n', '&equal', '&more', '&less', '&shift_6']
+  - - {t: ., s: '>'}
+    - HOME
+    - END
+    - '&alt_v'
+    - '&alt_b'
+    - '&alt_n'
+    - '&equal'
+    - '&more'
+    - '&less'
+    - '&shift_6'
   - - LWIN
     - {type: held}
     - BSPC
@@ -132,16 +141,16 @@ layers:
     - ''
   fun:
   - [F1, F2, F3, F4, '', VOL UP, PREV, PP, NEXT, '']
-  - - F5
-    - F6
-    - F7
-    - F8
+  - - {t: F5, h: ⌘}
+    - {t: F6, h: ⎇}
+    - {t: F7, h: ⌃}
+    - '&hrsft LSHFT F8'
     - {t: game, h: toggle}
     - VOL DN
     - RSHIFT
-    - ''
-    - ''
-    - ''
+    - ⌃
+    - ⎇
+    - ⌘
   - [F9, F10, F11, F12, '', '', '', '', '', '']
   - - LWIN
     - ⌃
