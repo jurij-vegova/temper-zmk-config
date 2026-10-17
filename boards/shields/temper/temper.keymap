@@ -99,7 +99,7 @@ combos {
     conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
-            if-layers = <NUM FUN>;
+            if-layers = <NAV FUN>;
             then-layer = <MODE>;
         };
     };
@@ -116,7 +116,7 @@ combos {
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &kp Z         &kp X          &kp C         &kp V        &kp B             &kp N         &kp M       &kp COMMA      &kp DOT      &kp FSLH
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                   &kp LWIN    &tm NAV ENTER   &kp BSPC         &kp SPACE     &mo NUM       &mo FUN
+                                   &kp LWIN    &tm NUM ENTER   &kp BSPC         &kp SPACE     &mo NAV       &mo FUN
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
 
             >;
