@@ -23,10 +23,10 @@ layers:
     - {t: ., s: '>'}
     - /
   - - LWIN
-    - {t: ENTER, h: nav}
+    - {t: ENTER, h: num}
     - BSPC
     - SPACE
-    - num
+    - nav
     - fun
   game:
   - - Q
@@ -97,10 +97,10 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - LWIN
-    - ENTER
+    - {t: ENTER, type: held}
     - BSPC
     - {t: SPACE, h: ⎇}
-    - {t: num, type: held}
+    - num
     - fun
   nav:
   - - '&alt_q'
@@ -134,10 +134,10 @@ layers:
     - '&less'
     - '&shift_6'
   - - LWIN
-    - {type: held}
+    - ''
     - BSPC
     - {t: SPACE, h: ⎇}
-    - ''
+    - {type: held}
     - ''
   fun:
   - [F1, F2, F3, F4, '', VOL UP, PREV, PP, NEXT, '']
